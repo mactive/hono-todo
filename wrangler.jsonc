@@ -10,26 +10,17 @@
     "MY_NAME": "Hono",
     "MY_VAR": "my-variable"
   },
-  "kv_namespaces": [
+  "r2_buckets": [
     {
-      "binding": "MY_KV",
-      "id": "f35d635591194559b01e9c56e009f0b7"
+      "binding": "MEDIA_BUCKET",
+      "bucket_name": "prompt-media"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "prompt_cms",
+      "database_id": "aeb224ff-0a2f-4b5f-804f-e623c38ef02e"
     }
   ]
-  // "r2_buckets": [
-  //   {
-  //     "binding": "MY_BUCKET",
-  //     "bucket_name": "my-bucket"
-  //   }
-  // ],
-  // "d1_databases": [
-  //   {
-  //     "binding": "MY_DB",
-  //     "database_name": "my-database",
-  //     "database_id": ""
-  //   }
-  // ],
-  // "ai": {
-  //   "binding": "AI"
-  // }
 }
